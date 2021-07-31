@@ -4,7 +4,7 @@ https://whatsapp-clone-2468.web.app/
 
 # Functionalities
 
-This app includes folloeing things :-
+This app includes following functionalities :-
 1. User Authentication
 2. Sign in with Google
 3. Create a new chat group
