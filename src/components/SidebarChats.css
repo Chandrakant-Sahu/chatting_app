@@ -1,0 +1,67 @@
+.sidebar__chats {
+  font-size: 4rem;
+  flex: 1;
+}
+
+a {
+  text-decoration: none !important;
+  color: #EFEFEF;
+  display: block;
+  width: 100%;
+  cursor: default;
+}
+
+.sidebarChat {
+  display: flex;
+  justify-content: space-between;
+  padding: 1.3rem;
+  border-bottom: 0.1rem solid #f6f6f6;
+}
+
+.sidebarChat:hover,
+.sidebarChat__info:hover {
+  background-color: var(--sidebar-chats-hover-color);
+}
+
+.sidebarChat__info {
+  display: flex;
+  align-items: center;
+  margin-left: 1rem;
+}
+
+.sidebarChat__infoText {
+  margin-left: 1rem;
+}
+
+.sidebarChat__infoText > h2 {
+  font-size: 1.6rem;
+  margin-bottom: 0.4em;
+}
+
+.sidebarChat__infoText > p {
+  font-size: 1.4rem;
+}
+
+.sidebarChat > button {
+  margin-left: 1rem;
+}
+
+.addNewChat {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+.addNewChat > h2 {
+  font-family: var(--navbar-font-family);
+  font-weight: 600;
+  font-size: 2rem;
+  color: var(--homepage-fontTwo-color);
+}
+
+.addNewChat > .MuiSvgIcon-root {
+  font-size: 2.8rem !important;
+  color: var(--homepage-fontTwo-color);
+
+}

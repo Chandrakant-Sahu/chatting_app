@@ -1,13 +1,44 @@
-body {
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Montserrat&family=Mulish&family=Oswald&family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&display=swap');
+
+/* VARIABLE INITIALIZATION */
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 62.5%;
+  --navbar-font-family: 'DM Sans', sans-serif;
+  --heading-font: "Poppins", sans-serif;
+  --normal-text-font: "Mulish", sans-serif;
+  --basic-font: "Josefin Sans", sans-serif;
+  --navbar-background: #41e91e;
+  --homepage-heading-color: #2580b3;
+  --homepage-font-color: black;
+  --homepage-fontTwo-color: #fff;
+  --chat-ui-background: #1c1c25;
+  --chat-message-sender-color: #fff;
+  --chat-message-receiver-color: #dcf8c6;
+  --chat-header-color: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+  --sidebar-search-container-color: white;
+  --sidebar-chats-hover-color: #3b3b3d;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  background-color: var(--chat-ui-background);
+}
+
+@media (max-width: 990px) {
+  * {
+    font-size: 65%;
+  }
+}
+
+@media (max-width: 768px) {
+  * {
+    font-size: 55%;
+  }
 }

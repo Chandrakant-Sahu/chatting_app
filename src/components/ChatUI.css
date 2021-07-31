@@ -1,0 +1,51 @@
+.chat__ui {
+  background-color: var(--chat-ui-background);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+}
+
+.chat__ui::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(#2196f3, #e91e63);
+  clip-path: circle(20% at 10% 10%);
+}
+
+.chat__ui::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(#f00, #03dac5);
+  clip-path: circle(25% at 90% 90%);
+}
+
+.chat__uiContainer {
+  width: 95%;
+  height: 95%;
+  display: flex;
+  flex: 1;
+  gap: 1rem;
+  max-width: 136.6rem;
+  padding: 1rem;
+  position: relative;
+}
+
+@media (max-width: 990px) {
+  .chat__ui::before {
+    display: none;
+  }
+
+  .chat__ui::after {
+    display: none;
+  }
+}
