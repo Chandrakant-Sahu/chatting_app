@@ -2,6 +2,18 @@
 
 https://whatsapp-clone-2468.web.app/
 
+# Functionalities
+
+This app includes folloeing things :-
+1. User Authentication
+2. Sign in with Google
+3. Create a new chat group
+4. Delete a chat group
+5. Search for a chat group
+6. Send images
+7. Emoji messaging
+8. Clear messages
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
