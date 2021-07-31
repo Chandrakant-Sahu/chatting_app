@@ -10,9 +10,8 @@ This app includes following functionalities :-
 3. Create a new chat group
 4. Delete a chat group
 5. Search for a chat group
-6. Send images
-7. Emoji messaging
-8. Clear messages
+6. Send messages (including images and emojis)
+7. Clear messages
 
 # Getting Started with Create React App
 
