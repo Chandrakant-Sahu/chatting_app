@@ -1,6 +1,6 @@
 # Demo Here
 
-https://whatsapp-clone-2468.web.app/
+Deployed on Firebase :-  https://whatsapp-clone-2468.web.app/
 
 # Functionalities
 
